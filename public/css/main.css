@@ -1,0 +1,63 @@
+/*
+    Main Style
+*/
+
+body{
+
+}
+
+troph-header{
+	background: #333;
+}
+
+troph-main{
+	display: block;
+	min-height: 600px;
+	margin-top: 20px;
+}
+
+troph-footer{
+	display: block;
+	background: yellow;
+	height: 150px;
+}
+
+.bg-mid{
+
+}
+
+.bg-light{
+
+}
+
+.bg-dark{
+
+}
+
+.bg-semidark{
+
+}
+
+/*
+	subject style
+*/
+.all-subjects{
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+.subject{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	margin: 20px;
+	text-align: center;
+	transition: all 1s ease;
+}
+.subject-selected{
+	height: 150px;
+	width: 150px;
+}
